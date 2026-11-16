@@ -12,3 +12,7 @@ who is affected (impact) and how badly their work is affected (urgency).
 | One person | P3 | P4 | P4 |
 
 Categories: network, access, hardware, software, email, other.
+
+One person: a single user.
+One team: several users in the same team or office area.
+Many users: more than one team, a whole site, or about 20 or more people, or any revenue system such as payments.
