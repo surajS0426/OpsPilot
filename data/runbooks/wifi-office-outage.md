@@ -4,7 +4,7 @@ runbook_id: wifi-office-outage
 category: network
 
 ## Symptoms
-Users in the office cannot connect to the office Wi-Fi, or connect but nothing loads. It usually affects a floor or the whole site, and the same laptops work normally at home. Office users do not need the VPN, so this is not a VPN problem.
+Users in the office cannot connect to the office Wi-Fi, or connect but nothing loads. It usually affects a floor or the whole site, and the same laptops work normally at home. This is not a VPN problem.
 
 ## First checks
 1. Check service status (get_service_status: wifi).
@@ -13,7 +13,7 @@ Users in the office cannot connect to the office Wi-Fi, or connect but nothing l
 
 ## Fix
 1. Ask users to switch Wi-Fi off and on, then rejoin the office network.
-2. If only one laptop fails, restart it and check its Wi-Fi driver is version 2.1 or later.
+2. If only one laptop fails, restart it and update its Wi-Fi driver to the latest approved version in the software catalogue using the device-management tool.
 3. Ask that user to forget the office network and rejoin it.
 4. Meanwhile, move users to wired connections.
 

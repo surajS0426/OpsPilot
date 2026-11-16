@@ -9,13 +9,13 @@ The user can send and receive email from their own mailbox, but a shared mailbox
 ## First checks
 1. Check service status (get_service_status: email).
 2. Confirm the shared mailbox name and whether the user has had access before.
-3. Check in the admin console whether the user has permission on the mailbox.
+3. Check in the identity admin console whether the user has permission on the mailbox.
 
 ## Fix
-1. If permission is missing, get the mailbox owner's approval, then grant full access in the admin console.
-2. Ask the user to restart the mail app; a new mailbox can take 60 minutes to appear.
+1. If permission is missing, get the mailbox owner's approval, then grant full access in the identity admin console.
+2. Ask the user to restart the mail app; it can take 60 minutes to appear.
 3. If it still does not appear, add it manually in the mail app settings.
-4. Test by opening the shared mailbox in webmail.
+4. Test by opening it in webmail.
 
 ## Escalate when
 - Email status shows down: escalate to messaging as P1. If status shows degraded: escalate to messaging as P2.
